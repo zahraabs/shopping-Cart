@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Vazir-FD';
+    src: url(../assets/fonts/Vazir-Medium-FD.woff);
+    src: url(../assets/fonts/Vazir-Medium-FD.woff2);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Vazir-FD';
+    direction: rtl;
+    background: #c748c1;
+}
+
+.product ,.cart{
+    background: #ffffff;
+}
+
+.product img{
+    width: 90%;
+}
